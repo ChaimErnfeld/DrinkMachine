@@ -53,6 +53,7 @@
             this.btnUpdataDrink = new System.Windows.Forms.Button();
             this.btnDeleteDrink = new System.Windows.Forms.Button();
             this.txtPrice = new System.Windows.Forms.TextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDrinksTabels)).BeginInit();
             this.SuspendLayout();
             // 
@@ -301,11 +302,22 @@
             this.txtPrice.TabIndex = 20;
             this.txtPrice.Text = "0";
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Location = new System.Drawing.Point(23, 171);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(80, 17);
+            this.checkBox1.TabIndex = 21;
+            this.checkBox1.Text = "checkBox1";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(662, 417);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.lblNewDrink);
             this.Controls.Add(this.txtPrice);
             this.Controls.Add(this.txtNewDrink);
@@ -360,6 +372,7 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn cocoa;
         private System.Windows.Forms.DataGridViewTextBoxColumn milk;
         private System.Windows.Forms.DataGridViewTextBoxColumn price;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
 

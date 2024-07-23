@@ -102,7 +102,7 @@ namespace DrinkMachine
 
             //הגדרת דרינק כילד ראשון של הקובץ הראשי
             xmlDocument.FirstChild.AppendChild(drink);
-            MessageBox.Show("הנתונים נוספו בהצלחה! נא שמור את הנתונים");
+            MessageBox.Show("הנתונים נוספו בהצלחה! נא שמור את הנתונים, יום טוב");
             //קריאה לפונקציה שמציגה את כל הנתונים בגריד וויו
             ShowAllDrinks();
         }
